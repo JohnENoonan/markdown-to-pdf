@@ -1,5 +1,5 @@
 # Markdown to PDF
-Create a PDF from a markdown file using GitHubs styling
+Create a PDF from a markdown file using GitHub's styling
 
 ## Install
 run
