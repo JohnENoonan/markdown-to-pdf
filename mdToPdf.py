@@ -80,7 +80,7 @@ def main():
 									 formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 	parser.add_argument('file', help='input file name', type=str)
 	parser.add_argument('export', help='file to write out', type=str)
-	parser.add_argument('--chrome-path', help="Path to chrome.exe", 
+	parser.add_argument('--chromepath', help="Path to chrome.exe", 
 						dest="chrome_path", type=str, default="C:/Program Files/Google/Chrome/Application/chrome.exe")
 	args = parser.parse_args()
 
